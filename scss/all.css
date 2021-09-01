@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import url(h:\PersonalWebsite\scss\reset.css);
-@import url(h:\PersonalWebsite\scss\bootstrap\bootstrap.css);
+@import url(d:\PersonalWebsite\scss\reset.css);
+@import url(d:\PersonalWebsite\scss\bootstrap\bootstrap.css);
 @font-face {
   font-family: 'cwTeXYen';
   font-style: normal;
@@ -173,16 +173,6 @@ a {
 }
 
 @media (max-width: 768px) {
-  .header {
-    /*
-        .navbar-nav{
-            position: absolute;
-            top: 100%;
-            left: 0;
-            width: 150%;
-        }
-        */
-  }
   .header h1 {
     width: 84px;
     height: 27px;
