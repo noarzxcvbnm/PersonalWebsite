@@ -1,0 +1,194 @@
+.portfolio{
+    position: relative;
+    
+    li{
+        margin-bottom: 64px;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .img{
+        overflow: hidden;
+        //padding-left: 0px;
+        a{
+            position: relative;
+            display: inline-block;
+        }
+    }
+    .o-h{
+        overflow: hidden;
+    }
+    .img a::before{
+        content: "視覺設計";
+        position: absolute;
+        bottom: 20px;
+        left: -5%;
+        padding: 5px 20px 5px 40px;
+        font-size: $text-m;
+        border-radius: 30px;
+        font-weight: bold;
+        color: $text-dark;
+        background-color: $text-white;
+        box-shadow: rgba(0, 0, 0, 0.322) 3px 5px 5px;
+    }
+
+    .img a:hover::before{
+        background-color: $text-dark;
+        color: $text-white;
+        transition: all 0.3s linear;
+    }
+    
+
+    /*圖片上的種類標示由此開始*/
+    .start2021{
+        .img a::before{
+            content: "典禮視覺";
+            }
+    }
+    .PERFUME{
+        .img a::before{
+            content: "網頁切版";
+            }
+    }
+    .fighting{
+        .img a::before{
+            content: "互動遊戲";
+            }
+    }
+    .smile2020{
+        .img a::before{
+            content: "視覺設計";
+            }
+    }
+    .photography{
+        .img a::before{
+            content: "人像攝影";
+            }
+    }
+    .TourGuide{
+        .img a::before{
+            content: "互動裝置";
+            }
+    }
+    /*圖片上的種類標示由此結束*/
+    
+    .info{
+        .info-tittle{
+            p{
+                font-size: $text-m;
+                padding-left: 10px;
+            }
+            
+        }
+        .info-link{
+            text-align: right;
+            display: block;
+            height: 12%;
+            span{
+                color: $text-dark;
+                text-decoration: underline;
+                display: inline-block;
+                
+            }
+        }
+        .info-work{
+            margin-top: 10px;
+            height: 35%;
+            background-color: $text-dark;
+            color: $text-white;
+            vertical-align: bottom;
+            h6{
+                padding-left: 1rem;
+                padding-top: 1rem;
+            }
+            p{
+                padding-left: 1rem;
+                font-size: $text-s;
+                color: $text-white;
+            }
+        }
+    }
+}
+
+@media(max-width:992px){
+    .info-work{
+        display: none;
+    }
+    .portfolio{
+        .img a::before{
+            font-size: $text-s;
+            padding: 5px 20px 5px 20px;
+        }
+        .info{
+            .info-tittle{
+                h5{
+                    padding-top: 10px;
+                    font-size: $text-m !important;
+                }
+                p{
+                    font-size: $text-s 
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:768px){
+    .info-work{
+        display: none;
+    }
+    .portfolio{
+        .img a::before{
+            content: "視覺設計";
+            position: absolute;
+            bottom: inherit;
+            left: inherit;
+            top:15px;
+            left: 10px;
+        }
+        .info{
+            .info-tittle{
+                h5{
+                    padding-top: 10px;
+                    font-size: $text-m !important;
+                }
+                p{
+                    font-size: $text-s;
+                }
+            }
+            .info-link{
+                span{
+                    font-size: $text-xs;
+                }
+            }
+
+        }
+    }
+    
+}
+@media(max-width:420px){
+    .portfolio{
+        .img a::before{
+            content: "視覺設計";
+            position: absolute;
+            bottom: inherit;
+            left: inherit;
+            top:10px;
+            left: 10px;
+            padding: 5px 15px 5px 15px;;
+            font-size: $text-xs;
+        }
+        .info{
+            .info-tittle{
+                h5{
+                    padding-top: 10px;
+                    font-size: $text-s !important;
+                }
+                p{
+                    font-size: $text-xs;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,295 @@
+/*start2021 START*/
+
+
+.banner{
+    margin-top: 150px;
+    h5{
+        display: inline-block;
+    }
+    
+    p{
+        display: inline-block;
+    }
+    img{
+        width: 100%;
+        margin-bottom: 10vh;
+    }
+}
+
+.introduct_text{
+    text-align: center;
+
+    .container{
+        position: relative;
+        padding-bottom: 250px !important;
+    }
+    h5{
+        margin-bottom: 50px;
+        margin-top: 150px;
+        
+    }
+    h7{
+        display: block;
+        margin-top: 30px;
+        font-size: $text-s;
+        color: $text-dark;
+
+    }
+    .small_text{
+        font-size: 14px;
+        color: $text-light-muted;
+    }
+    .small_pic1{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        
+    }
+    .small_pic2{
+        position: absolute;
+        left: 0;
+        bottom: 280px;
+    }
+}
+
+.introduct_pic{
+    text-align: center;
+    .color_area{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    img{
+        width: 100%;
+    }
+    h5{
+        margin-bottom: 50px;
+        margin-top: 150px;
+    }
+    h7{
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 80px;
+        font-size: $text-s;
+        color: $text-dark;
+        
+        
+
+    }
+}
+
+/*start2021 END*/
+
+
+
+
+/*PERFUME START*/
+.mySlides{
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.247)
+}
+/*PERFUME END*/
+
+/*fighting START*/
+.small_tittle{
+    font-weight: bolder;
+    color: $text-dark;
+    font-size: $text-m;
+    margin-bottom: 10px;
+}
+
+.text-align-left{
+    text-align: left;
+}
+
+.img-100{
+    img{
+        width: 100%;
+    }
+}
+
+.no-col-magin{
+    .col-6{
+        padding: 10px 5px;
+    }
+    .row{
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+}
+
+
+.introduct_monster{
+    text-align: center;
+    h5{
+        margin-bottom: 50px;
+        margin-top: 150px;
+    }
+    .monster-pic{
+        height: 500px;
+        img{
+            height: 100%;
+        }
+    }
+    .row{
+        height: 500px;
+    }
+    .pic-introduct{
+        width: 60%;
+        h4{
+            font-weight: bolder;
+            text-align: left;
+        }
+        p{
+            text-align: left;
+        }
+    }
+}
+
+.introduct_vedio{
+    text-align: center;
+}
+/*fighting END*/
+
+.smille-photo{
+    margin-right: -15px;
+    
+    img{
+        padding-bottom: 10px;
+    }
+}
+.sille-idea-text{
+    width: 70%;
+}
+
+.smille2020logo{
+    img{
+        padding: 30px 30px;
+    }
+}
+.smille-main-logo{
+    max-width: 500px;
+}
+
+
+/*smill end*/
+/*photo start*/
+
+.photo-margin{
+    position: relative;
+    margin-bottom: 200px;
+    
+}
+
+.photo-setting{
+    img{
+        width: 100%;
+    }
+    .photo-text{
+        padding: 45% 20% 20% 20%;
+    }
+    .photo-bg{
+        background-color: $secondary;
+    }
+}
+
+.photo-4and5-bg::before{
+    content: "";
+    display: block;
+    width: 2000px;
+    height: 80%;
+    background-color: $secondary;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.pr-img{
+    padding-right: 10px;
+}
+.pl-img{
+    padding-left: 10px;
+}
+
+@media(max-width:1200px){
+    .introduct_text{
+        .small_pic1,.small_pic2{
+            transform: scale(0.7);
+        }
+    }
+}
+
+@media(max-width:992px){
+    .introduct_text{
+        .small_pic1,.small_pic2{
+            display: none;
+        }
+        .container{
+            position: relative;
+            padding-bottom: 0px !important;
+        }
+    }
+}
+
+@media(max-width:768px){
+    .introduct_text{
+        text-align: center;
+        .container{
+            position: relative;
+        }
+        h5{
+            margin-bottom: 20px;
+            margin-top: 60px;
+        }
+    }
+    .introduct_pic {
+        h5{
+            margin-bottom: 20px;
+            margin-top: 60px;
+        }
+        h7{
+            font-size: $text-xs;
+        }
+    }
+    .small_tittle{
+        font-size: $text-s;
+    }
+    .introduct_monster .monster-pic{
+        height: 300px;
+    }
+    .smille2020logo{
+        img{
+            padding: 20px 20px;
+        }
+        .smille-main-logo{
+            width: 70%;
+        }
+    }
+    .photo-margin{
+        .photo-text{
+            padding: 30% 20% 10% 20%;
+        }
+    }
+    .pr-img{
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+    .pl-img{
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+    .photo-setting .photo-bg {
+        background-color: white;
+    }
+    .photo-7{
+        transform: scale(0.7);
+    }
+}
+
+@media(max-width:420px){
+    .introduct_monster .row {
+        height: 450px;
+    }
+    .introduct_monster .monster-pic{
+        height: 200px;
+    }
+}

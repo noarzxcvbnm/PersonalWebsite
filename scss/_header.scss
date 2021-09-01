@@ -1,0 +1,144 @@
+.header{
+    background-color: $primary;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1;
+    .sm_navbar{
+        display: none;
+    }
+    h1{
+        background-image: url(../img/sign.svg);
+        background-size: cover;
+        width:  112px;
+        height: 36.43px;
+        a{
+            text-indent: 999%;
+            overflow: hidden;
+            white-space: nowrap;
+            line-height: 58px;
+            display: inline-block;
+        }
+    }
+    .menu{
+        li{
+            img{
+                padding-right: 10px;
+            }
+            a{  
+                color: $text-white;
+                font-size: $text-m;
+                line-height: 20px;
+                padding-right: 40px;
+                position: relative;
+            }
+            a::after{
+                content: "";
+                height: 2px;
+                width: 100%;
+                display: inline-block;
+                background-color: white;
+                position: absolute;
+                width: 0%;
+                right: 55%;/*讓他的出發點變成父元素的50%位置*/
+                transform: translateX(50%);/*讓他依照自己的定位回歸50%*/
+                bottom: 0px;
+                transition: width 0.5s;
+            }
+            a:hover{
+                text-decoration: none;
+            }
+            a:hover:after{
+                width: 80%;
+            }
+        }
+        
+    }
+}
+.navbar-toggler{
+    display: none;
+    border: none;
+}
+.navbar-toggler:focus {
+    outline: 0; /*漢堡選單不要外框線*/
+  }
+
+
+
+@media(max-width:992px){
+    .header{
+        .menu{
+            li{
+                img{
+                    transform: scale(80%);
+                }
+                a{
+                    padding-right: 10px;
+                    font-size: $text-s;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:768px){
+    .header{
+        h1{
+            width: 84px;
+            height: 27px;
+        }
+        .navbar-toggler{
+            display: block;
+        }
+        /*
+        .navbar-nav{
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 150%;
+        }
+        */
+        .menu{
+            li{
+                a::after{
+                    display: none;
+                }
+                a:hover:after{
+                    display: none;
+                }
+                a{
+                    color: white;
+                    width: 100%;
+                    img{
+                        display: none;
+                    }
+                }
+            }
+            li:hover{
+                a{
+                    color: $text-dark;
+                    
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:475px){
+    .header{
+        .sm_navbar{
+            background-color: #ffeddd7c;
+            display: block;
+            a{
+                color: white;
+            }
+        }
+        .navbar{
+            justify-content: center;
+        }
+        .menu{
+            display: none;
+
+        }
+    }
+}

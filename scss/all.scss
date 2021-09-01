@@ -1,0 +1,43 @@
+$text-xs:8pt;
+$text-s:12pt;
+$text-m:16pt;
+$text-l:22pt;
+$text-xl:24pt;
+$text-xxl:34pt;
+$primary: #E7C6AA;
+$secondary: #FFEDDD;
+$text-dark:#513A2D;
+$text-muted: #695D57;
+$text-light-muted: #AFA49F;
+$text-white: #FFF;
+
+@font-face {
+    font-family: 'cwTeXYen';
+    font-style: normal;
+    font-weight: 500;
+    src: url(//fonts.gstatic.com/ea/cwtexyen/v3/cwTeXYen-zhonly.eot);
+    src: url(//fonts.gstatic.com/ea/cwtexyen/v3/cwTeXYen-zhonly.eot?#iefix) format('embedded-opentype'),
+         url(//fonts.gstatic.com/ea/cwtexyen/v3/cwTeXYen-zhonly.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/cwtexyen/v3/cwTeXYen-zhonly.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/cwtexyen/v3/cwTeXYen-zhonly.ttf) format('truetype');
+  }
+
+//@import "gird";
+//@import "banner";
+@import "reset.css";
+@import "bootstrap/bootstrap.css";
+@import "layout";
+@import "header";
+
+// /*中間內容*/
+@import "index";
+@import "portfolio_section";
+@import "portfolio";
+// @import "Portfolio-2";
+// @import "Portfolio-3";
+// @import "Portfolio-4";
+// @import "Portfolio-5";
+
+// /*表尾*/
+@import "footer";
+

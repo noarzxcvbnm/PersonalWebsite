@@ -1,0 +1,77 @@
+/*
+ * cwTeXYen (Chinese Traditional) http://www.google.com/fonts/earlyaccess
+ */
+
+
+body{
+    font-family: "cwTeXYen","微軟正黑體", "Microsoft JhengHei",Arial,sans-serif ;
+    color: $text-dark ;
+    a{
+        text-decoration: none ;
+    }
+    li{
+        list-style: none ;
+        
+    }
+    p{color: $text-dark }
+}
+
+.container{
+    width: 1140px;
+}
+
+.header,.footer,.section{
+    color: $text-dark;
+    font-family: "微軟正黑體", "Microsoft JhengHei",Arial,sans-serif;
+}
+
+h3{
+    font-family: "Source Han Serif TW","Times","微軟正黑體", "Microsoft JhengHei",Arial,serif !important; 
+    text-align: center;
+    font-weight: bold !important;
+    font-size: $text-xxl !important;
+    margin-bottom: 80px !important;
+    padding-top: 250px;
+}
+
+h5{
+    font-size: $text-xl !important;
+    font-weight: bolder!important;
+    color: $text-dark!important;
+}
+
+tr,td,p,li{
+    font-size: $text-m;
+    color: $text-dark;
+}
+
+ul{
+    padding: 0 !important;
+}
+
+a{
+    color: $text-light-muted ;
+}
+
+
+@media(max-width:992px){
+    tr,td,p,li{
+        font-size: $text-s;
+    }
+}
+
+@media(max-width:768px){
+    h3{
+        padding-top: 50px;
+        font-size: $text-xl !important;
+        margin-bottom: 50px !important;
+    }
+    h5{
+        font-size: $text-m !important;
+        
+    }
+    
+    tr,td,p,li{
+        font-size: $text-xs;
+    }
+}
