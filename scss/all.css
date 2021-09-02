@@ -466,11 +466,10 @@ h3:before {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.whatCanIdo .row .outBorder .icontify img {
-  width: 96px;
-  height: 96px;
+  /*img{
+                    width: 96px;
+                    height: 96px;
+                }*/
 }
 
 .whatCanIdo .row .outBorder h4 {
