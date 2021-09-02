@@ -413,7 +413,8 @@ h3:before {
 
 .skill .row img {
   margin-right: 37px;
-  height: 55px;
+  width: 85px;
+  height: 85px;
 }
 
 .skill .row p {
@@ -468,8 +469,8 @@ h3:before {
 }
 
 .whatCanIdo .row .outBorder .icontify img {
-  -webkit-transform: scale(80%);
-          transform: scale(80%);
+  width: 96px;
+  height: 96px;
 }
 
 .whatCanIdo .row .outBorder h4 {
@@ -1188,6 +1189,8 @@ h3:before {
 
 .footer {
   background-color: #E7C6AA;
+  position: fixed;
+  bottom: 0%;
   width: 100%;
 }
 
