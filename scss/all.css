@@ -627,8 +627,8 @@ h3:before {
     height: 120px;
   }
   .whatCanIdo .row .outBorder .icontify img {
-    -webkit-transform: scale(50%);
-            transform: scale(50%);
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
   }
   .whatCanIdo .row .outBorder h4 {
     font-size: 16pt;
@@ -680,8 +680,8 @@ h3:before {
     height: 80px;
   }
   .whatCanIdo .row .outBorder .icontify img {
-    -webkit-transform: scale(40%);
-            transform: scale(40%);
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
   }
   .whatCanIdo .row .outBorder h4 {
     font-size: 12pt;
