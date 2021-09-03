@@ -1,9 +1,13 @@
-.header{
-    background-color: $primary;
+#header{
     position: fixed;
     top: 0%;
     width: 100%;
     z-index: 1;
+    transition: top 0.3s;/* Transition effect when sliding down (and up) 使用0.3秒的時間去滑動*/
+}
+
+.header{
+    background-color: $primary;
     .sm_navbar{
         display: none;
     }

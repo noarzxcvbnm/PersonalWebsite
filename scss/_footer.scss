@@ -1,7 +1,11 @@
-.footer{
-    background-color: $primary;
+#footer{
     position: fixed;
     bottom: 0%;
+    transition: bottom 0.3s;/* Transition effect when sliding down (and up) 使用0.3秒的時間去滑動*/
+    z-index: 1;
+}
+.footer{
+    background-color: $primary;
     width: 100%;
     .menu{
         li{
