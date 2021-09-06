@@ -592,8 +592,8 @@ h3:before {
     margin-bottom: 30px;
   }
   .skill .row img {
-    -webkit-transform: scale(70%);
-            transform: scale(70%);
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
     margin-right: 5px;
     width: 50px;
   }
