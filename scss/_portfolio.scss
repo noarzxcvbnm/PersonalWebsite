@@ -51,6 +51,11 @@
             content: "網頁切版";
             }
     }
+    .micro{
+        .img a::before{
+            content: "網頁視覺";
+            }
+    }
     .fighting{
         .img a::before{
             content: "互動遊戲";
