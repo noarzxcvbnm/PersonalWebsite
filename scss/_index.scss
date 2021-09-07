@@ -1,4 +1,3 @@
-
 h3:before {
     content: "";
     display: block;
@@ -38,7 +37,7 @@ h3:before {
         span{
             font-size: 18px;
             color: $text-light-muted;
-            padding-left: 30px;
+            padding-left: 20px;
             animation: TextAnimation2 0.5s 1.5s ease both;
         }
         p{

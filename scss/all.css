@@ -82,7 +82,7 @@ a {
     font-size: 16pt !important;
   }
   tr, td, p, li {
-    font-size: 8pt;
+    font-size: 9pt;
   }
 }
 
@@ -270,7 +270,7 @@ h3:before {
 .introduct .introduct-text span {
   font-size: 18px;
   color: #AFA49F;
-  padding-left: 30px;
+  padding-left: 20px;
   -webkit-animation: TextAnimation2 0.5s 1.5s ease both;
           animation: TextAnimation2 0.5s 1.5s ease both;
 }
@@ -664,11 +664,11 @@ h3:before {
     margin-bottom: 10px;
   }
   .introduct .introduct-text span {
-    font-size: 8pt;
+    font-size: 9pt;
     margin-bottom: 20px;
   }
   .introduct .introduct-text p {
-    font-size: 8pt;
+    font-size: 9pt;
   }
   .introduct2 {
     height: 300px;
@@ -677,7 +677,7 @@ h3:before {
     font-size: 12pt;
   }
   .introduct2-text p {
-    font-size: 8pt;
+    font-size: 9pt;
   }
   .whatCanIdo .row .outBorder {
     padding: 20px 20px;
@@ -694,7 +694,7 @@ h3:before {
     margin-bottom: 10px;
   }
   .whatCanIdo .row .outBorder p {
-    font-size: 8pt;
+    font-size: 9pt;
   }
   .skill .row .skill-item {
     margin-bottom: 0px;
@@ -715,7 +715,7 @@ h3:before {
     z-index: -1;
   }
   .schoolExperience .experience {
-    font-size: 8pt;
+    font-size: 9pt;
   }
   .schoolExperience .experience img {
     -webkit-transform: scale(0.8);
@@ -951,8 +951,8 @@ h3:before {
 
 .u-shadow {
   border-radius: 20px;
-  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 1200px) {
@@ -988,7 +988,7 @@ h3:before {
     margin-top: 60px;
   }
   .introduct_pic h7 {
-    font-size: 8pt;
+    font-size: 9pt;
   }
   .small_tittle {
     font-size: 12pt;
@@ -1183,7 +1183,7 @@ h3:before {
     font-size: 12pt;
   }
   .portfolio .info .info-link span {
-    font-size: 8pt;
+    font-size: 9pt;
   }
 }
 
@@ -1196,14 +1196,14 @@ h3:before {
     top: 10px;
     left: 10px;
     padding: 5px 15px 5px 15px;
-    font-size: 8pt;
+    font-size: 9pt;
   }
   .portfolio .info .info-tittle h5 {
     padding-top: 10px;
     font-size: 12pt !important;
   }
   .portfolio .info .info-tittle p {
-    font-size: 8pt;
+    font-size: 9pt;
   }
 }
 
