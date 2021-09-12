@@ -516,19 +516,22 @@ h3:before {
 }
 
 @media (max-width: 1200px) {
+  .skill .row {
+    margin-bottom: 30px;
+  }
   .skill .row li {
     margin-bottom: 30px;
   }
-  .skill .row li img {
+  .skill .row img {
     -webkit-transform: scale(0.9);
             transform: scale(0.9);
     margin-right: 20px;
   }
-  .skill .row li p {
+  .skill .row p {
     position: relative;
     display: inline;
   }
-  .skill .row li p span {
+  .skill .row p span {
     font-size: 22pt;
   }
 }
