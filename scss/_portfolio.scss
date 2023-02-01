@@ -2,6 +2,43 @@
     position: relative;
     padding-top: 50px;
     
+    .portfolio-nav{
+        .pointer {
+            cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+    .portfolio-nav-topBtn{
+        display: block;
+        background: white;
+        color: $text-dark;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        font-size: $text-m;
+        border-radius: 30px;
+        border: 1px solid;
+        border-color: $text-light-muted;
+        
+    }
+    .portfolio-nav-topBtn:hover{
+        color: $text-light-muted;
+        border-color: $text-light-muted;
+    }
+
+    .portfolio-nav-topBtn-now{
+        background: $primary;
+        color: $text-white;
+        border: none;
+    }
+
+    .portfolio-nav-topBtn-now:hover{
+        background: $primary;
+        color: $secondary;
+    }
+
     li{
         margin-bottom: 64px;
     }
@@ -77,6 +114,11 @@
             content: "互動裝置";
             }
     }
+    .SinyiAnimationArt{
+        .img a::before{
+            content: "插畫美術";
+            }
+    }
     /*圖片上的種類標示由此結束*/
     
     .info{
@@ -122,6 +164,16 @@
         display: none;
     }
     .portfolio{
+        .portfolio-nav{
+            .col-6{
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            .portfolio-nav-topBtn{
+                font-size: $text-s;
+            }
+        }
+        
         .img a::before{
             font-size: $text-s;
             padding: 5px 20px 5px 20px;
@@ -145,6 +197,11 @@
         display: none;
     }
     .portfolio{
+        .portfolio-nav{
+            .col-6{
+                margin-bottom: 10px;
+            }
+        }
         .img a::before{
             content: "視覺設計";
             position: absolute;
