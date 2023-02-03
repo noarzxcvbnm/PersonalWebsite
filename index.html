@@ -16,7 +16,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="js/all.js"></script>
-    
     <!-- 引入html -->
     <script src="js/w3.js"></script>
 </head>
@@ -321,84 +320,9 @@
         <script>
             w3.includeHTML();
         </script>
-        <script type="text/javascript">// <![CDATA[
-            function show_A_part() {
-            var show_A_part = document.getElementById('show_A_part');
-            var content_A_part = document.getElementById('content_A_part');
-    
-                if (content_A_part.style.display === 'none') {
+        <!-- 引入換頁js -->
+        <script type="text/javascript" src="js/portfolio.js"></script>
 
-                    content_A_part.style.display = 'block';
-                    document.querySelector('.portfolio-nav-topBtn-A').classList.add('portfolio-nav-topBtn-now')
-
-                    content_B_part.style.display = 'none';
-                    document.querySelector('.portfolio-nav-topBtn-B').classList.remove('portfolio-nav-topBtn-now')
-
-                    content_C_part.style.display = 'none';
-                    document.querySelector('.portfolio-nav-topBtn-C').classList.remove('portfolio-nav-topBtn-now')
-
-                    content_D_part.style.display = 'none';
-                    document.querySelector('.portfolio-nav-topBtn-D').classList.remove('portfolio-nav-topBtn-now')
-                }
-    
-            }
-            function show_B_part() {
-            var show_B_part = document.getElementById('show_B_part');
-            var content_B_part = document.getElementById('content_B_part');
-    
-                if (content_B_part.style.display === 'none') {
-
-                    content_A_part.style.display = 'none';
-                    document.querySelector('.portfolio-nav-topBtn-A').classList.remove('portfolio-nav-topBtn-now')
-
-                    content_B_part.style.display = 'block';
-                    document.querySelector('.portfolio-nav-topBtn-B').classList.add('portfolio-nav-topBtn-now')
-
-                    content_C_part.style.display = 'none';
-                    document.querySelector('.portfolio-nav-topBtn-C').classList.remove('portfolio-nav-topBtn-now')
-
-                    content_D_part.style.display = 'none';
-                    document.querySelector('.portfolio-nav-topBtn-D').classList.remove('portfolio-nav-topBtn-now')
-                }
-            }
-            function show_C_part() {
-            var show_C_part = document.getElementById('show_C_part');
-            var content_C_part = document.getElementById('content_C_part');
-    
-                if (content_C_part.style.display === 'none') {
-
-                    content_A_part.style.display = 'none';
-                    document.querySelector('.portfolio-nav-topBtn-A').classList.remove('portfolio-nav-topBtn-now')
-
-                    content_B_part.style.display = 'none';
-                    document.querySelector('.portfolio-nav-topBtn-B').classList.remove('portfolio-nav-topBtn-now')
-
-                    content_C_part.style.display = 'block';
-                    document.querySelector('.portfolio-nav-topBtn-C').classList.add('portfolio-nav-topBtn-now')
-
-                    content_D_part.style.display = 'none';
-                    document.querySelector('.portfolio-nav-topBtn-D').classList.remove('portfolio-nav-topBtn-now')
-                }
-            }
-            function show_D_part() {
-            var show_D_part = document.getElementById('show_D_part');
-            var content_D_part = document.getElementById('content_D_part');
-    
-                if (content_D_part.style.display === 'none') {
-
-                    content_A_part.style.display = 'none';
-                    document.querySelector('.portfolio-nav-topBtn-A').classList.remove('portfolio-nav-topBtn-now')
-
-                    content_B_part.style.display = 'none';
-                    document.querySelector('.portfolio-nav-topBtn-B').classList.remove('portfolio-nav-topBtn-now')
-
-                    content_C_part.style.display = 'none';
-                    document.querySelector('.portfolio-nav-topBtn-C').classList.remove('portfolio-nav-topBtn-now')
-
-                    content_D_part.style.display = 'block';
-                    document.querySelector('.portfolio-nav-topBtn-D').classList.add('portfolio-nav-topBtn-now')
-                }
-            }
-        // ]]></script>
+        
 </body>
 </html>
