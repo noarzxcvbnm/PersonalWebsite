@@ -79,6 +79,11 @@
     
 
     /*圖片上的種類標示由此開始*/
+    .healthy2022{
+            .img a::before{
+                content: "動畫專案";
+                }
+        }
     .start2021{
         .img a::before{
             content: "典禮視覺";
