@@ -58,7 +58,7 @@
         overflow: hidden;
     }
     .img a::before{
-        content: "視覺設計";
+        content: "";
         position: absolute;
         bottom: 20px;
         left: -5%;
@@ -79,11 +79,7 @@
     
 
     /*圖片上的種類標示由此開始*/
-    .healthy2022{
-            .img a::before{
-                content: "動畫專案";
-                }
-        }
+
     .start2021{
         .img a::before{
             content: "典禮視覺";
@@ -124,6 +120,16 @@
             content: "插畫美術";
             }
     }
+    .Agete{
+        .img a::before{
+            content: "UXUI";
+            }
+    }
+    .healthy2022{
+            .img a::before{
+                content: "動畫專案";
+                }
+        }
     /*圖片上的種類標示由此結束*/
     
     .info{
@@ -208,7 +214,7 @@
             }
         }
         .img a::before{
-            content: "視覺設計";
+            content: "";
             position: absolute;
             bottom: inherit;
             left: inherit;
@@ -238,7 +244,7 @@
 @media(max-width:420px){
     .portfolio{
         .img a::before{
-            content: "視覺設計";
+            content: "";
             position: absolute;
             bottom: inherit;
             left: inherit;
