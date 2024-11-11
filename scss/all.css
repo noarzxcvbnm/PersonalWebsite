@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import url(c:\Users\USER\Documents\PersonalWebsite-main\PersonalWebsite-main\scss\reset.css);
-@import url(c:\Users\USER\Documents\PersonalWebsite-main\PersonalWebsite-main\scss\bootstrap\bootstrap.css);
+@import url(e:\PersonalWebsite2025\PersonalWebsite-main\PersonalWebsite-main\scss\reset.css);
+@import url(e:\PersonalWebsite2025\PersonalWebsite-main\PersonalWebsite-main\scss\bootstrap\bootstrap.css);
 @font-face {
   font-family: 'cwTeXYen';
   font-style: normal;
@@ -1098,6 +1098,12 @@ h3:before {
 
 .portfolio .o-h {
   overflow: hidden;
+  padding: 0 11px 11px 0;
+}
+
+.portfolio .o-h img {
+  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 .portfolio .img a::before {
@@ -1160,6 +1166,10 @@ h3:before {
 
 .portfolio .healthy2022 .img a::before {
   content: "動畫專案";
+}
+
+.portfolio .boccia .img a::before {
+  content: "活動視覺";
 }
 
 .portfolio .info .info-tittle p {

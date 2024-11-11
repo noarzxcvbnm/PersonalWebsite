@@ -2,6 +2,8 @@
     position: relative;
     padding-top: 50px;
     
+
+
     .portfolio-nav{
         .pointer {
             cursor: pointer;
@@ -56,6 +58,10 @@
     }
     .o-h{
         overflow: hidden;
+        padding:0 11px 11px 0;
+
+        img{box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);}
+
     }
     .img a::before{
         content: "";
@@ -128,6 +134,11 @@
     .healthy2022{
             .img a::before{
                 content: "動畫專案";
+                }
+        }
+    .boccia{
+            .img a::before{
+                content: "活動視覺";
                 }
         }
     /*圖片上的種類標示由此結束*/
